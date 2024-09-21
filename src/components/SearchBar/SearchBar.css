@@ -1,0 +1,18 @@
+/* src/components/SearchBar.css */
+.search-bar {
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgba(116, 143, 173, 0.726);
+  border-radius: 5px;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  border-color: #0056b3;
+}
