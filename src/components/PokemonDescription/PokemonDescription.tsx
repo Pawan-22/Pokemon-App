@@ -1,5 +1,5 @@
 import React from "react";
-import "./PokemonDescription.css"; // Ensure you have the CSS file for styling
+import "./PokemonDescription.css"; 
 
 interface Ability {
   ability: {
