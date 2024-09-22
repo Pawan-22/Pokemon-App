@@ -1,6 +1,6 @@
 .pokemon-list {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   justify-content: center;
   gap: 5px;
   margin: 20px;
