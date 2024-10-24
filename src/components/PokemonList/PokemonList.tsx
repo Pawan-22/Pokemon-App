@@ -117,3 +117,8 @@ const PokemonList: React.FC<PokemonList> = ({ onDescriptionToggle }) => {
 };
 
 export default PokemonList;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> d15328c164068f76993d760a80d6d010da7191ef
