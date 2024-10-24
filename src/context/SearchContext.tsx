@@ -25,7 +25,7 @@ export const SearchContextProvider: React.FC<PropsWithChildren> = ({
   const setSearchValue = (input: string) => {
     dispatch({ type: "SET_SEARCH_VALUE", data: input });
   };
-  console.log("State", state);
+
   return (
     <SearchContext.Provider value={{ searchData: state, setSearchValue }}>
       {children}

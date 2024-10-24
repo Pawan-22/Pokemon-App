@@ -8,12 +8,11 @@ interface Props {
 
 const PokemonCard: React.FC<Props> = ({ name, url, onclick }) => {
   const getPokemonID = (url: string) => {
-    let splitedUrl = url.split("/");
-    let pokemonId = splitedUrl[splitedUrl.length - 2];
+    const splitedUrl = url.split("/");
+    const pokemonId = splitedUrl[splitedUrl.length - 2];
     return pokemonId;
   };
   const pokemonId = getPokemonID(url);
-  console.log(typeof pokemonId);
 
   const formatedName =
     name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
